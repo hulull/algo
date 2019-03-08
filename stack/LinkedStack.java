@@ -32,3 +32,11 @@ public class LinkedStack {
         System.out.println(stack.pop());
     }
 }
+
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) {
+        val = x;
+    }
+}
